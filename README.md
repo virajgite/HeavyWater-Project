@@ -8,7 +8,7 @@ Contains two columns - document label and hashed document content
 
 Original Document Distribution 
 
-BILL|18968
+|BILL|18968|
 POLICY CHANGE|10627
 CANCELLATION NOTICE|9731
 BINDER|8973
