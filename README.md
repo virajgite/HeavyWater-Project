@@ -47,6 +47,13 @@ The prediction function is deployed on AWS lambda, and the model and required pa
 6. Creating API on AWS API GATEWAY
 7. Building an UI for submitting requests to the API (uses Django)
 
+
+**Improvements**
+
+1. The classification can be improved by removing stop-words before hashing the raw text. 
+2. A list of stop-words can be formed in context with the domain in which this ML model will be used, I believe many stop-words might exist in financial documents that barely helps to distinguish between different classes of documents. 
+3. Trying multiple models and parameter tuning will help us to use the best suitable model.
+
 **scikit-learn package built for AWS lambda (amazonlinux2018.03)** [download](https://drive.google.com/file/d/1PjOkB3LFyrNPi-pb80ObD3n2ckQ5o-vB/view?usp=sharing)
 
 _**[Contact me](mailto:virajgite@gmail.com) for links to the UI and API**_
