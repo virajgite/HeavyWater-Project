@@ -45,6 +45,8 @@ The prediction function is deployed on AWS lambda, and the model and required pa
 6. Creating API on AWS API GATEWAY
 7. Building an UI for submitting requests to the API (uses Django)
 
+**scikit-learn package built for AWS lambda (amazonlinux2018.03)** [download](https://drive.google.com/file/d/1PjOkB3LFyrNPi-pb80ObD3n2ckQ5o-vB/view?usp=sharing)
+
 _**[Contact me](mailto:virajgite@gmail.com) for links to the UI and API**_
 
 
