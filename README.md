@@ -32,7 +32,7 @@ While it is important to test different ML models(like Neural Nets, Random Fores
 
 **Deployment:**
 
-The preiction function is deployed on AWS lambda, and the model and required packages for the functions are stored on AWS S3.
+The prediction function is deployed on AWS lambda, and the model and required packages for the functions are stored on AWS S3.
 
 **Steps Taken:**
 
