@@ -50,7 +50,7 @@ The prediction function is deployed on AWS lambda, and the model and required pa
 
 **Improvements**
 
-1. The classification can be improved by removing stop-words before hashing the raw text. 
+1. The classification can be improved by removing stop-words before hashing the raw text output from OCR layer. 
 2. A list of stop-words can be formed in context with the domain in which this ML model will be used, I believe many stop-words might exist in financial documents that barely helps to distinguish between different classes of documents. 
 3. Trying multiple models and parameter tuning will help us to use the best suitable model.
 
