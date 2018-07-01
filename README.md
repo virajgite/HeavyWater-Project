@@ -9,7 +9,8 @@ Contains two columns - document label and hashed document content
 Original Document Distribution 
 
 ![original data distribution](https://github.com/virajgite/HeavyWater-Project/blob/master/Screenshot%20(189).png)
-Total Documents:62204
+
+**Total Documents:62204**
 
 
 Since the document distribution is uneven I balance the dataset by undersampling which reduces the number of documents to be preocessed and computation power required
