@@ -26,7 +26,9 @@ Undersampled Document Distribution
 
 **Model:**
 
-I used (Multinomial) Naive Bayes model available in the scikit-learn. Trained the document on the undersampled document set and tested the model with various different sizes of test data. When splitting the undersampled document-set into 80% train 20% test. the model predicts the test data with 75% accuracy. For larger test data sizes the model consistently provides an accurracy of 75%.
+I used (Multinomial) Naive Bayes model available in the scikit-learn. Trained the document on the undersampled document set and tested the model with various different sizes of test data. 
+
+When splitting the undersampled document set into 80%-train 20%-test, the model predicts the test data with 75% accuracy. For larger test data sizes the model consistently provides an accurracy of 75%.
 
 It is important to test different ML models(like Neural Nets, Random Forest etc) when devising a solution to a problem using ML. I did not check other models due to time constraint.
 
