@@ -1,7 +1,9 @@
 # HeavyWater-Project
-Project aim : Train a document classification model. Deploy the model to a public cloud platform.
 
-DATA:
+Project aim: 
+Train a document classification model. Deploy the model to a public cloud platform.
+
+Data:
 Contains two columns - document label and hashed document content 
 
 Original Document Distribution 
@@ -48,7 +50,7 @@ While it is important to test different ML models(like Neural Nets, Random Fores
 Deployment:
 The preiction function is deployed on AWS lambda, and the model and required packages for the functions are stored on AWS S3.
 
-STEPS TAKEN:
+Steps Taken:
 1. Undersampling Data
 2. Creating of features vectors using tfidf vectorizer
 3. Training the model on undersampled data
