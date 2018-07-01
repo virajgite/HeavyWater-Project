@@ -42,7 +42,9 @@ The prediction function is deployed on AWS lambda, and the model and required pa
 4. Saving the model and feature vocabulary to be used in the prediction function
 5. Deploying the function to AWS lamda 
 (Deploying a function to lambda involves building required libraries for prediction function from source in the AWS linux environment. A docker image of AWS linux env can be downloaded [here](https://hub.docker.com/_/amazonlinux/). The built libraries and lamda_function need to be uploaded on S3 as a .zip file) 
+
 6.Creating API on AWS API GATEWAY
+
 7.Building an UI for submitting requests to the API (uses Django)
 
 _**[Contact me](mailto:virajgite@gmail.com) for links to the UI and API**_
