@@ -1,9 +1,11 @@
 # HeavyWater-Project
 
-Project aim: 
+**Project aim:**
+
 Train a document classification model. Deploy the model to a public cloud platform.
 
-Data:
+**Data:**
+
 Contains two columns - document label and hashed document content 
 
 Original Document Distribution 
@@ -22,15 +24,18 @@ Undersampled Document Distribution
 **Total Documents:3206**
 
 
-Model:
+**Model:**
+
 I used (Multinomial) Naive Bayes model available in the scikit-learn. Trained the document on the undersampled document set and tested the model with various different sizes of test data. When splitting the undersampled document-set into 80% train 20% test. the model predicts the test data with 75% accuracy. For larger test data sizes consistently provides an accurracy of 75%.
 
 While it is important to test different ML models(like Neural Nets, Random Forest etc) when devising a solution to a problem using ML, I did not check other models due to time constraint.
 
-Deployment:
+**Deployment:**
+
 The preiction function is deployed on AWS lambda, and the model and required packages for the functions are stored on AWS S3.
 
-Steps Taken:
+**Steps Taken:**
+
 1. Undersampling Data
 2. Creating of features vectors using tfidf vectorizer
 3. Training the model on undersampled data
@@ -40,7 +45,7 @@ Steps Taken:
 6.Creating API on AWS API GATEWAY
 7.Building an UI for submitting requests to the API (uses Django)
 
-Contact me for links to the UI and API
+_**[Contact me](mailto:virajgite@gmail.com) for links to the UI and API**_
 
 
 
