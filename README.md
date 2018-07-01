@@ -16,20 +16,11 @@ Original Document Distribution
 Since the document distribution is uneven I balance the dataset by undersampling which reduces the number of documents to be preocessed and computation power required
 
 Undersampled Document Distribution
-CHANGE ENDORSEMENT         229
-RETURNED CHECK             229
-BINDER                     229
-BILL                       229
-DECLARATION                229
-EXPIRATION NOTICE          229
-NON-RENEWAL NOTICE         229
-REINSTATEMENT NOTICE       229
-DELETION OF INTEREST       229
-POLICY CHANGE              229
-APPLICATION                229
-CANCELLATION NOTICE        229
-BILL BINDER                229
-INTENT TO CANCEL NOTICE    229
+
+![undersampled data distribution](https://github.com/virajgite/HeavyWater-Project/blob/master/Screenshot%20(190).png)
+
+**Total Documents:3206**
+
 
 Model:
 I used (Multinomial) Naive Bayes model available in the scikit-learn. Trained the document on the undersampled document set and tested the model with various different sizes of test data. When splitting the undersampled document-set into 80% train 20% test. the model predicts the test data with 75% accuracy. For larger test data sizes consistently provides an accurracy of 75%.
