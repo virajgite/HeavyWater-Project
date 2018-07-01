@@ -8,23 +8,7 @@ Contains two columns - document label and hashed document content
 
 Original Document Distribution 
 
-|      |       |
-| ---- | ----- |
-| BILL | 18968 |
-
-POLICY CHANGE|10627
-CANCELLATION NOTICE|9731
-BINDER|8973
-DELETION OF INTEREST|4826
-REINSTATEMENT NOTICE|4368
-DECLARATION|968
-CHANGE ENDORSEMENT|889
-RETURNED CHECK|749
-EXPIRATION NOTICE|734
-NON-RENEWAL NOTICE|624
-BILL BINDER|289
-APPLICATION|229
-INTENT TO CANCEL NOTICE|229
+![original data distribution](https://github.com/virajgite/HeavyWater-Project/blob/master/Screenshot%20(189).png)
 
 Total Documents|62204
 
